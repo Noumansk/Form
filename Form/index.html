@@ -1,0 +1,52 @@
+<html>
+<head>
+	<title>Forms</title>
+</head>
+<body bgcolor="90FF33">
+	<fieldset>
+		<h1 align="center">REGISTRATION FORM</h1>
+		<hr /><hr />
+	<form action="http://www.example.com/login" method="get">
+		<fieldset><legend>
+				Your Details:</legend>
+			<label>First Name *
+<input type="text" name="name" size="30" maxlength="100">
+</label><br />
+<label>Last Name *
+<input type="text" name="name" size="31" maxlength="100">
+</label><br />
+<label>Phone Number *
+<input type="number" name="number" size="30" maxlength="100"></label><br />
+<p>Gender<br />
+				<label><input type="radio" name="rating" value="Male" />Male</label>
+				<label><input type="radio" name="rating" value="Female" />Female</label></p>
+<input type="checkbox" name="service"
+value="apples" checked="checked" /> Apple
+<input type="checkbox" name="service"
+value="oranges" /> Oranges
+<input type="checkbox" name="service"
+value="pears" /> Pears <br />
+<input type="image" src="images/submit.png" width="50" height="20" /><br /><br />		
+<button type="reset" value="Reset">Reset</button>		
+		</fieldset>
+		<fieldset><legend>Your Review:</legend>
+<p>Subscribe to our email list:</p>
+<input type="text" name="email" placeholder="nouman@example.com" />
+<p>Upload a file:</p>
+<input type="file" name="file" />
+<input type="submit" value="Upload" />
+
+<p><label for="hear-about">How did you hear about us?</label>
+<select name="referrer" id="hear-about">
+<option value="linkedin">Linkedin</option>
+<option value="friend">Friend</option>
+<option value="advert">Advert</option>
+<option value="other">Other</option></select></p>
+	<p>	<label for="comments">Comments:</label>	<br />
+				<textarea rows="4" cols="40" id="comments"></textarea></p>
+			<label><input type="checkbox" name="subscribe" checked="checked" />
+Sign me up for email updates
+</label><br />
+<input type="image" src="images/subscribe.png" width="50" height="20" />		
+		</fieldset></form></fieldset></body>
+</html>
